@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+dist/
+*.pyc
+
+review/HANDOFF.md
+PRODUCT.md
+DESIGN.md

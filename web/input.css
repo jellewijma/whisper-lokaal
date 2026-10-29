@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@source "./index.html";
+@source "./app.js";
+@layer base { body {@apply bg-slate-50 text-slate-900 antialiased;} button {@apply cursor-pointer rounded-md bg-blue-700 px-4 py-2 text-sm font-medium text-white hover:bg-blue-800 disabled:cursor-not-allowed disabled:opacity-50;} input:not([type=checkbox]), select, textarea {@apply w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm;} label {@apply block text-sm font-medium;} summary {@apply cursor-pointer py-3 font-medium;} a {@apply text-blue-700 underline underline-offset-4;} :focus-visible {outline:2px solid #1d4ed8;outline-offset:3px;} ::selection {background:#bfdbfe;color:#172554;} }
